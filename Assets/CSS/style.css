@@ -3,6 +3,9 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+/*** Header ***/
+
 header {
     background-color: #DDD;
     font-family: 'Itim', cursive;
@@ -57,7 +60,9 @@ header {
     background-color: #3D7EA6;
     color: #FFF;
 }
+
 /*** Section ***/
+
 section {
     height: 500px;
     margin-top: 5px;
@@ -98,10 +103,12 @@ section {
     content: '➜';
     margin-left: 6px;
 }
+
 /*** Article ***/
+
 article {
     height: 200px;
-    margin-top:5px;
+    margin-top:30px;
     font-family: 'Lato', sans-serif;
 }
 .text-top-article {
@@ -110,13 +117,42 @@ article {
 }
 .h1-top-article {
     font-size: 45px;
-    color: #022840;
+    color: #59a9da;
     font-weight: 600;
 }
 .cards-content-area {
-    padding: 30px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
 }
+.card {
+    max-width: 1000px;
+    max-height: 400px;
+    text-align: center!important;
+    padding: 30px;
+    border: none;
+    border-right: 1px solid #3D7EA6;
+}
+.img-card-icon {
+    width: 120px;
+}
+.h1-title-card {
+    font-size: 30px;
+    font-weight: bold;
+    color: #022840;
+}
+.p-sub-title-card {
+    font-style: italic;
+    text-align: unset;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #022840;
+}
+
+
 /*** Responsivo ***/
+
+
 @media screen and (max-width:992px) {
     header {
         height: auto;
@@ -141,5 +177,35 @@ article {
     }
     .navbar-login {
         border-top:none!important;
+    }
+    .card {
+        border: none;
+    }
+}
+@media screen and (max-width:425px) {
+    .h1-banner {
+        font-size: 37px;
+    }
+    .p-banner {
+        margin-top: 10px;
+        font-size: 18.5px;
+    }
+    .img-background {
+        height: 360px;
+    }
+    .botao-banner {
+        font-size: 18px;
+    }
+    article {
+        margin-top: 0px;
+    }
+    section {
+        height: 430px;
+    }
+    .text-top-article {
+        margin-top: 0px;
+    }
+    .cards-content-area {
+        margin-top: 5px;
     }
 }
