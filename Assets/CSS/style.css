@@ -107,7 +107,7 @@ section {
 /*** Article ***/
 
 article {
-    height: 200px;
+    height: auto;
     margin-top:30px;
     font-family: 'Lato', sans-serif;
 }
@@ -115,7 +115,8 @@ article {
     text-align: center;
     margin-top: 10px;
 }
-.h1-top-article {
+.h1-top-article,
+.h1-top-depoimentos {
     font-size: 45px;
     color: #59a9da;
     font-weight: 600;
@@ -149,6 +150,18 @@ article {
     color: #022840;
 }
 
+/*** Main ***/
+
+main {
+    background-color: #CCC;
+    height: 400px;
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+}
+.text-top-depoimentos {
+    padding-top: 10px;
+    text-align: center;
+}
 
 /*** Responsivo ***/
 
