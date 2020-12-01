@@ -143,7 +143,8 @@ article {
     font-weight: bold;
     color: #022840;
 }
-.p-sub-title-card {
+.p-sub-title-card,
+.p-nome-depoimentos {
     font-style: italic;
     text-align: unset;
     margin-top: 5px;
@@ -176,11 +177,17 @@ main {
     text-align: center;
 }
 .img-depoimentos {
-    width: 200px;
+    width: 250px;
     max-width: 1000px;
+    max-height: 165px;
     border-radius: 100%;
 }
-
+.name-card-depoimentos {
+    margin-top: 30px;
+}
+.p-nome-depoimentos {
+    margin-top: 15px;
+}
 /*** Responsivo ***/
 
 
