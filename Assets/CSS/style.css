@@ -115,7 +115,8 @@ article {
     text-align: center;
     margin-top: 10px;
 }
-.h1-top-article {
+.h1-top-article,
+.h1-top-depoimentos {
     font-size: 45px;
     color: #59a9da;
     font-weight: 600;
@@ -136,12 +137,14 @@ article {
 .img-card-icon {
     width: 120px;
 }
-.h1-title-card {
+.h1-title-card,
+.h1-nome-depoimentos {
     font-size: 30px;
     font-weight: bold;
     color: #022840;
 }
-.p-sub-title-card {
+.p-sub-title-card,
+.p-nome-depoimentos {
     font-style: italic;
     text-align: unset;
     margin-top: 5px;
@@ -149,7 +152,42 @@ article {
     color: #022840;
 }
 
+/*** Main ***/
 
+main {
+    height: 400px;
+    margin-top: 80px;
+    font-family: 'Lato', sans-serif;
+}
+.text-top-depoimentos {
+    padding-top: 10px;
+    text-align: center;
+}
+.container-depoimentos {
+    margin-top: 30px;
+}
+.card-depoimentos {
+    max-width: 1000px;
+    max-height: 400px;
+    text-align: center!important;
+    border-right: 1px solid #3D7EA6;
+    padding: 30px;
+}
+.img-card-depoimentos {
+    text-align: center;
+}
+.img-depoimentos {
+    width: 250px;
+    max-width: 1000px;
+    max-height: 165px;
+    border-radius: 100%;
+}
+.name-card-depoimentos {
+    margin-top: 30px;
+}
+.p-nome-depoimentos {
+    margin-top: 15px;
+}
 /*** Responsivo ***/
 
 
