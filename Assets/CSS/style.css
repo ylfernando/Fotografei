@@ -107,7 +107,7 @@ section {
 /*** Article ***/
 
 article {
-    height: 200px;
+    height: auto;
     margin-top:30px;
     font-family: 'Lato', sans-serif;
 }
@@ -124,12 +124,12 @@ article {
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
+    padding: 30px;
 }
 .card {
     max-width: 1000px;
     max-height: 400px;
     text-align: center!important;
-    padding: 30px;
     border: none;
     border-right: 1px solid #3D7EA6;
 }
