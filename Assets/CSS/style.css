@@ -63,7 +63,7 @@ header {
 
 /*** Section ***/
 
-section {
+.section {
     height: 500px;
     margin-top: 5px;
     font-family: 'Lato', sans-serif;
@@ -106,7 +106,7 @@ section {
 
 /*** Article ***/
 
-article {
+.article {
     height: auto;
     margin-top:30px;
     font-family: 'Lato', sans-serif;
@@ -141,7 +141,7 @@ article {
 .h1-nome-depoimentos {
     font-size: 30px;
     font-weight: bold;
-    color: #022840;
+    color: #3C4E59;
 }
 .p-sub-title-card,
 .p-nome-depoimentos {
@@ -149,12 +149,12 @@ article {
     text-align: unset;
     margin-top: 5px;
     font-size: 15px;
-    color: #022840;
+    color: #3C4E59;
 }
 
 /*** Main ***/
 
-main {
+.main {
     height: 400px;
     margin-top: 80px;
     font-family: 'Lato', sans-serif;
@@ -234,10 +234,10 @@ main {
     .botao-banner {
         font-size: 18px;
     }
-    article {
+    .article {
         margin-top: 0px;
     }
-    section {
+    .section {
         height: 430px;
     }
     .text-top-article {
