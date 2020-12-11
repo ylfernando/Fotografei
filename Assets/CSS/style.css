@@ -155,7 +155,7 @@ header {
 /*** Main ***/
 
 .main {
-    height: 400px;
+    height: auto;
     margin-top: 80px;
     font-family: 'Lato', sans-serif;
 }
@@ -187,6 +187,19 @@ header {
 }
 .p-nome-depoimentos {
     margin-top: 15px;
+}
+/*** 2º Section ***/
+.section-preco {
+    height: 100px;
+    margin-top: 80px;
+}
+.h1-top-precos {
+    font-size: 45px;
+    color: #59a9da;
+    font-weight: 600;
+}
+.preco-content {
+    padding: 30px;
 }
 /*** Responsivo ***/
 
