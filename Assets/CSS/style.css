@@ -15,19 +15,19 @@ header {
 .img-logo {
     height: 95px!important;
 }
-.color1 {
+.c1 {
     color:#022840;
 }
-.color2 {
+.c2 {
     color:#3C4E59;
 }
-.color3 {
+.c3 {
     color:#0E7373;
 }
-.color4 {
+.c4 {
     color:#F26444;
 }
-.color5 {
+.c5 {
     color:#F2F2F2;
 }
 .nav-item a {
@@ -192,6 +192,7 @@ header {
 .section-preco {
     height: 100px;
     margin-top: 80px;
+    font-family: 'Lato', sans-serif;
 }
 .h1-top-precos {
     font-size: 45px;
@@ -200,6 +201,34 @@ header {
 }
 .preco-content {
     padding: 30px;
+}
+.card-preco-content {
+    display: flex;
+}
+.card-preco {
+    height: 200px;
+    background-color: #efefef;
+    width: 300px;
+}
+.card-plano-titulo {
+    height: 50px;
+    background-color: #3C4E59;
+    width: 100%!important;
+    border:1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plano-texto {
+    color: #FFF;
+    font-size: 21px;
+    font-weight: bold;
+}
+.card-plano-preco {
+    margin-top: 15px;
+}
+.h1-card-preco {
+    font-size: 24px;
 }
 /*** Responsivo ***/
 
