@@ -170,7 +170,7 @@ header {
     max-width: 1000px;
     max-height: 400px;
     text-align: center!important;
-    border-right:  solid #3D7EA6;
+    border-right: 1px solid #3D7EA6;
     padding: 30px;
 }
 .border-right-none {
@@ -193,7 +193,7 @@ header {
 }
 /*** 2º Section ***/
 .section-preco {
-    height: 100px;
+    height: auto;
     margin-top: 80px;
     font-family: 'Lato', sans-serif;
 }
@@ -208,7 +208,9 @@ header {
 }
 .card-preco-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
 }
 .card-plano-caracter-content {
     margin-top: 40px;
@@ -277,6 +279,21 @@ header {
 }
 .botao-plano:hover {
     background-color: #5f7786;
+}
+/*** Footer ***/
+.footer {
+    height:100px;
+    background-color: #3C4E59;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1-footer {
+    text-align: center;
+    color: #FFF;
+    font-weight: bolder;
+    font-size:25px;
 }
 /*** Responsivo ***/
 
@@ -355,5 +372,8 @@ header {
     }
     .cards-content-area {
         margin-top: 5px;
+    }
+    .h1-footer {
+        font-size: 20px;
     }
 }
