@@ -316,7 +316,7 @@ header {
     border:1px solid #000;
 }
 .duvida-pergunta:hover {
-    background-color: #2A5773;
+    background-color: #5f7786;
 }
 .span-pergunta {
     font-size: 25px;
@@ -324,8 +324,8 @@ header {
 }
 .duvida-resposta {
     padding: 15px;
-    background-color: #2A5773;
-    height: 125px;
+    background-color: #5f7786;
+    height: auto;
     transition:all ease 0.5s;
 }
 .span-resposta {
