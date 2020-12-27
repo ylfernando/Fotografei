@@ -164,7 +164,7 @@ header {
     text-align: center;
 }
 .container-depoimentos {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .card-depoimentos {
     max-width: 1000px;
@@ -280,10 +280,61 @@ header {
 .botao-plano:hover {
     background-color: #5f7786;
 }
+/*** 3º Section ***/
+.section-duvida {
+    height: auto;
+    margin-top: 80px;
+    background-color: #FFF;
+    font-family: 'Lato', sans-serif;
+}
+.h1-top-duvida {
+    font-size: 45px;
+    color: #59a9da;
+    font-weight: 600;
+}
+.duvida-area {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/*** Dúvidas ***/
+.duvida-content {
+    height: 200px;
+    max-width: 350px;
+}
+.duvida-pergunta {
+    height: 100px;
+    background-color: #3C4E59;
+    border-radius: 5px;
+    padding:15px;
+    cursor: pointer;
+    transition: all 1s;
+    border:1px solid #000;
+}
+.duvida-pergunta:hover {
+    background-color: #2A5773;
+}
+.span-pergunta {
+    font-size: 20px;
+    color: #FFF;
+}
+.duvida-resposta {
+    padding: 15px;
+    background-color: #2A5773;
+    height: auto;
+        border:1px solid #000;
+}
+.span-resposta {
+    color: #FFF;
+    font-size: 16px;
+}
 /*** Footer ***/
 .footer {
     height:100px;
     background-color: #3C4E59;
+    margin-top: 80px;
     font-family: 'Lato', sans-serif;
     display: flex;
     justify-content: center;
