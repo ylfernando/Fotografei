@@ -296,19 +296,21 @@ header {
     padding: 30px;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
 }
 /*** Dúvidas ***/
 .duvida-content {
-    height: 200px;
-    max-width: 350px;
+    height: auto;
+    margin:10px 0px 10px 0px;
+    width: 70%;
 }
 .duvida-pergunta {
-    height: 100px;
+    height: auto;
     background-color: #3C4E59;
     border-radius: 5px;
-    padding:15px;
+    padding:10px;
+    text-align: center;
     cursor: pointer;
     transition: all 1s;
     border:1px solid #000;
@@ -317,18 +319,22 @@ header {
     background-color: #2A5773;
 }
 .span-pergunta {
-    font-size: 20px;
+    font-size: 25px;
     color: #FFF;
 }
 .duvida-resposta {
     padding: 15px;
     background-color: #2A5773;
-    height: auto;
-        border:1px solid #000;
+    height: 125px;
+    transition:all ease 0.5s;
 }
 .span-resposta {
     color: #FFF;
-    font-size: 16px;
+    font-size: 20px;
+    text-align: center;
+}
+.span-personalizado {
+    color:#59a9da;
 }
 /*** Footer ***/
 .footer {
@@ -396,27 +402,62 @@ header {
         margin-top: 30px;
         margin-bottom: 30px;
     }
+    .duvida-content {
+        width: 100%;
+        max-width: unset!important;
+        height: auto;
+        margin:10px 0px 10px 0px;
+    }
+    .duvida-pergunta {
+        height: auto;
+    }
+    .span-pergunta {
+        font-size: 27px;
+    }
+    .span-resposta {
+        font-size: 21px;
+    }
 
 }
 @media screen and (max-width:425px) {
+    .section {
+        height: auto;
+    }
     .h1-banner {
-        font-size: 37px;
+        font-size: 27px;
+    }
+    .h1-top-article,
+    .h1-top-depoimentos {
+        font-size: 27px;
     }
     .p-banner {
         margin-top: 10px;
-        font-size: 18.5px;
+        font-size: 16px;
+    }
+    .texto-banner {
+        width: 320px;
     }
     .img-background {
         height: 360px;
     }
+    .botao-area {
+        text-align: unset;
+        padding: 30px;
+    }
     .botao-banner {
-        font-size: 18px;
+        font-size: 17px;
     }
     .article {
         margin-top: 0px;
     }
     .section {
         height: 430px;
+    }
+    .card {
+        margin:25px 0px 25px 0px;
+    }
+    .img-card {
+        margin-bottom: 10px;
     }
     .text-top-article {
         margin-top: 0px;
@@ -425,6 +466,12 @@ header {
         margin-top: 5px;
     }
     .h1-footer {
+        font-size: 20px;
+    }
+    .span-pergunta {
+        font-size: 25px;
+    }
+    .span-resposta {
         font-size: 20px;
     }
 }
