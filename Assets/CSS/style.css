@@ -60,6 +60,44 @@ header {
     background-color: #3D7EA6;
     color: #FFF;
 }
+.modal-content-person {
+    background-color:#3C4E59;
+    font-family: 'Lato', sans-serif; 
+    height: auto;
+}
+.modal-header {
+    font-family: 'Lato', sans-serif;
+    color:#FFF;
+    justify-content: center;
+}
+.modal-title {
+    text-align: center;
+    font-size: 30px;
+}
+.modal-body {
+    padding: 25px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.span-modal {
+    font-size: 20px;
+    color:#FFF;
+}
+.input-name {
+    border:1px solid #59a9da;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    font-size: 17px;
+    color: #59a9da;
+    margin-top: 10px;
+    width: 220px;
+}
+.btn-person {
+    font-size:18px;
+}
 
 /*** Section ***/
 

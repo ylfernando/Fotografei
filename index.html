@@ -37,17 +37,59 @@
                             <a class="nav-item" href="#">Sobre nós</a>
                         </li>
                     </ul>
-                                        <div class="login-area mx-3">
+                      <div class="login-area mx-3">
                       <ul class="navbar-nav navbar-login">
-                          <li class="nav-item nav-login"><a class="nav-login" href="#login">Fazer login</a></li>
+                        <li class="nav-item nav-login">
+                          <a class="nav-login" href="#login">Fazer login</a>
+                        </li>
                           <span class="espacador mx-2">|</span>
-                          <li class="nav-item nav-cadastro"><a class="nav-cadastro" href="#login">Cadastrar-me</a></li>
+                          <li class="nav-item nav-cadastro">
+                            <a data-toggle="modal" data-target="#ModalCadastrar" class="nav-cadastro" href="#login">Cadastrar-me</a>
+                          </li>
                       </ul>
                   </div>
                   </div>
             </nav>
         </div>
     </header>
+<!---- Modal Cadastre-se ---->
+    <div class="modal fade" id="ModalCadastrar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content modal-content-person">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Fazer meu cadastro</h5>
+
+      </div>
+      <div class="modal-body">
+
+        <div class="modal-body">
+        <span class="span-modal">Nome:</span>
+        <input type="text" class="input-name">
+      </div>
+
+      <div class="modal-body">
+        <span class="span-modal">E-mail:</span>
+        <input type="text" class="input-name">
+      </div>
+
+      <div class="modal-body">
+        <span class="span-modal">Senha:</span>
+        <input type="text" class="input-name">
+      </div>
+
+      <div class="modal-body">
+        <span class="span-modal">Confirmar senha:</span>
+        <input type="text" class="input-name">
+      </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary btn-person">Fazer cadastro</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!---- Section ---->
 
     <section class="section">
