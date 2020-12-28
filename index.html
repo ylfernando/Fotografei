@@ -14,8 +14,8 @@
 <!----Body ---->
 <body>
 <!---- Header ---->
-    <header class="header d-flex justify-content-between">
-        <div class="container">
+    <header id="inicio" class="header d-flex justify-content-between">
+        <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="logo">
                 <a class="navbar-brand">
@@ -28,13 +28,19 @@
                   <div class="collapse navbar-collapse" id="contentHeader">
                     <ul class="navbar-nav mx-auto ml-3">
                         <li class="nav-item mx-3">
-                            <a class="nav-item" href="#">Início</a>
+                            <a id="inicio" class="nav-item" href="#">Início</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-item" href="#">Encontrar lugares</a>
+                            <a class="nav-item" href="#know-how">Como funciona</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-item" href="#">Sobre nós</a>
+                            <a class="nav-item" href="#recomendacoes">Recomendações</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-item" href="#precos">Preços</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-item" href="#duvidas">Dúvidas</a>
                         </li>
                     </ul>
                       <div class="login-area mx-3">
@@ -106,7 +112,7 @@
 
 <!---- Article ---->
 
-    <article class="article">
+    <article class="article" id="know-how">
         <div class="text-top-article">
             <h1 class="h1-top-article">Como funciona o Fotografei?</h1>
         </div>
@@ -167,7 +173,7 @@
 
 <!---- Main ---->
 
-<main class="main">
+<main class="main" id="recomendacoes">
    <div class="container-fluid">
     <div class="text-top-depoimentos">
         <h1 class="h1-top-depoimentos">Os fotógrafos recomendam!</h1>
@@ -243,7 +249,7 @@
    </div>
 </main>
 <!---- 2º Section ---->
-<section class="section-preco">
+<section class="section-preco" id="precos">
   <div class="container-fluid">
 
 <!---- Text top ---->
@@ -323,7 +329,7 @@
   </div>
 </section>
 <!---- 3º Section ---->
-<section class="section-duvida">
+<section class="section-duvida scroll" id="duvidas">
   <div class="container-fluid">
     <div class="text-top-duvida text-center">
       <h1 class="h1-top-duvida">Dúvidas sobre a Fotografei</h1>
@@ -373,7 +379,16 @@
 </section>
 <!---- Footer ---->
   <footer class="footer">
-    <div class="texto-footer">
+    <div class="menu-footer">
+      <ul class="ul-footer mr-auto">
+        <li class="li-footer"><a href="#inicio">Voltar para o início</a></li>
+        <li class="li-footer"><a href="#know-how">Como funciona</a></li>
+        <li class="li-footer"><a href="#recomendacoes">Recomendações</a></li>
+        <li class="li-footer"><a href="#precos">Preços</a></li>
+        <li class="li-footer"><a href="#duvidas">Dúvidas frequentes</a></li>
+      </ul>
+    </div>
+    <div class="text-footer">
       <h1 class="h1-footer">Fotografei 2020. Todos os direitos reservados.</h1>
     </div>
   </footer>
