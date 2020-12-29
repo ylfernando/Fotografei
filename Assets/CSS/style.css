@@ -424,8 +424,21 @@ header {
 }
 /*** Responsivo ***/
 
+@media screen and (max-width:1024px) {
+
+    .nav-item a {
+        font-size: 16.5px;
+    }
+}
 
 @media screen and (max-width:992px) {
+    .navbar-light .navbar-toggler {
+        color: rgb(188 55 55 / 50%);
+        border-color: #2f8fe1;
+    }
+    .navbar-toggler {
+        background-color: #2f8fe1;
+    }
     header {
         height: auto;
     }
@@ -458,6 +471,7 @@ header {
     }
 }
 @media screen and (max-width:780px) {
+
     .card-preco-content {
         display: flex;
         flex-direction: column;
@@ -497,6 +511,7 @@ header {
 
 }
 @media screen and (max-width:425px) {
+
     .section {
         height: auto;
     }
@@ -505,7 +520,7 @@ header {
     }
     .h1-top-article,
     .h1-top-depoimentos {
-        font-size: 27px;
+        font-size: 45px;
     }
     .p-banner {
         margin-top: 10px;
@@ -546,9 +561,34 @@ header {
         font-size: 20px;
     }
     .span-pergunta {
-        font-size: 25px;
+        font-size: 23px;
     }
     .span-resposta {
         font-size: 20px;
+    }
+}
+@media screen and (max-width:362px) {
+    
+    .img-logo {
+        height: 65px!important;
+    }
+    .botao-plano {
+        margin: 0px 10px 0px 10px;
+        font-size: 15.5px;
+    }
+    .h1-top-article, .h1-top-depoimentos, .h1-top-duvida {
+        font-size: 37px;
+    }
+    .img-depoimentos {
+        width: 200px;
+    }
+    .duvida-pergunta {
+        text-align: unset;
+    }
+    .span-pergunta {
+        font-size: 20.5px;
+    }
+    .span-resposta {
+        font-size: 15.5px;
     }
 }
