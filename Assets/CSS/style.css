@@ -100,6 +100,24 @@ header {
 }
 .btn-person {
     font-size:18px;
+    background-color: #375C73;
+    border:1px solid #77C4F3;
+    text-align: center;
+}
+.btn-voltar {
+    background-color: #FFF;
+    color: #375C73;
+    border:1px solid #77C4F3;
+    text-align: center;
+}
+.btn-person:hover {
+    background-color: #375C73;
+    border:1px solid #77C4F3;
+}
+.btn-voltar:hover {
+    background-color: #FFF;
+    color: #375C73;
+    border:1px solid #77C4F3;
 }
 
 /*** Section ***/
